@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./myStyle.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+        
+        <title>B Leung</title>
+    </head>
+
+    <body style="background-color:#CAC2B5;">
+      <!--Navbar-->
+    <div class="container">
+
+    <div class="row">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: transparent;">
+      <header id = "head"> <img src="./assets/bee.png" width="30px"><b>  Betty Leung</b></header>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> 
+          <a class="nav-link" href="#aboutMe">  About Me  <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#why">  Why am I here  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hobbies">   Hobbies  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">   Gallery  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactMe">   Contact Me  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#home">   &#8682;  </a>
+        </li>
+      </ul>
+      </div>
+      </nav>
+    </div>
+
+    <!--content-->
+    <div class="container">
+      <span id = "home"></span>
+      <!--welcome image-->
+      <div class = "row justify-content-center align-items-center welcomeContainer">
+        <div class = "col-10 welcomePic">
+            <div class= "row justify-content-center align-items-center vectorGridContainer">
+                <div class = "col-3 vectorGrid">
+                    <img src = "./assets/welcome/vector17.svg" id ="vectorPic1" onmouseover="mouseOverImage1()" onmouseout="mouseOverImage1()">
+                </div>
+                <div class = "col-3 vectorGrid">
+                    <img src = "./assets/welcome/vector4.svg" id ="vectorPic2" onmouseover="mouseOverImage2()" onmouseout="mouseOverImage2()">
+                </div>
+                <div class = "col-3 vectorGrid">
+                  <img src = "./assets/welcome/vector12.svg" id ="vectorPic3" onmouseover="mouseOverImage3()" onmouseout="mouseOverImage3()">
+              </div>
+            </div>
+            <div class= "row justify-content-center align-items-center vectorGridContainer">
+              <div class = "col-3 vectorGrid">
+                <img src = "./assets/welcome/vector16.svg" id ="vectorPic4" onmouseover="mouseOverImage4()" onmouseout="mouseOverImage4()">
+            </div>
+                <div class = "col-3 vectorGrid">
+                    <img src = "./assets/welcome/vector_girl.svg" id ="vectorPic6">
+                </div>
+                <div class = "col-3 vectorGrid">
+                    <img src = "./assets/welcome/vector8.svg" id ="vectorPic5" onmouseover="mouseOverImage5()" onmouseout="mouseOverImage5()">
+                </div>
+            </div>
+        </div>
+  
+      </div>
+      
+      <div class = "row justify-content-center align-items-center welcomeContainerText">
+        <p><strong> Betty Leung &nbsp;<svg width="0.8em" height="0.8em" viewBox="0 0 16 16" class="bi bi-flower2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 16a4 4 0 0 0 4-4 4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 1 0 0 8 4 4 0 0 0 4 4zm3-12a3 3 0 0 0-6 0c0 .073.01.155.03.247.544.241 1.091.638 1.598 1.084A2.987 2.987 0 0 1 8 5c.494 0 .96.12 1.372.331.507-.446 1.054-.843 1.598-1.084.02-.092.03-.174.03-.247zm-.812 6.052A2.99 2.99 0 0 0 11 8a2.99 2.99 0 0 0-.812-2.052c.215-.18.432-.346.647-.487C11.34 5.131 11.732 5 12 5a3 3 0 1 1 0 6c-.268 0-.66-.13-1.165-.461a6.833 6.833 0 0 1-.647-.487zm-3.56.617a3.001 3.001 0 0 0 2.744 0c.507.446 1.054.842 1.598 1.084.02.091.03.174.03.247a3 3 0 1 1-6 0c0-.073.01-.155.03-.247.544-.242 1.091-.638 1.598-1.084zm-.816-4.721A2.99 2.99 0 0 0 5 8c0 .794.308 1.516.812 2.052a6.83 6.83 0 0 1-.647.487C4.66 10.869 4.268 11 4 11a3 3 0 0 1 0-6c.268 0 .66.13 1.165.461.215.141.432.306.647.487zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </svg> &nbsp;Web Developer</strong></p>
+      </div>
+
+
+      <!--about me-->   
+      <span id = "aboutMe"></span>
+      <div class = "row justify-content-center aboutMeContainer">
+
+        <div class ="col-3 aboutMePhoto">
+          <br>
+          <img src = "./assets/photos/aboutMe/myPhoto.jpg" alt="Me" id="myPhoto">
+        </div>
+
+        <div class = "col-6 aboutMeText">
+        <h2>About me...</h2><br>
+        <p>Hello, this is Betty. I was born and raised in Hong Kong, and I went to the UK to 
+          study since year 9. After I finished my A-levels in the UK, I took a gap year and 
+          returned to Hong Kong to work briefly. I went back to the UK afterwards to study  
+          History of Art at the University of Warwick. I returned to Hong Kong for good after
+          my graduation and worked in several fields including company secretarial and trust.<br>
+
+        </div>
+      </div>
+      
+      <!--why am i here-->
+      <span id = "why"></span> 
+      <div class = "row justify-content-center whyContainer">
+
+        <div class ="col-6 whyText">
+          <h2>Why am I here...</h2><br>
+          <p>As an arts major, I have always been told that I lacked "solid skills" comparing 
+            to students graduated in business or science majors. I took different routes in my 
+            career path to find out what I want to achieve. I realise that I particularly enjoy 
+            roles that allow me to use my creativity and skills to solve problems in a 
+            people-oriented perspective. I believe that learning to code opens doors to 
+            opportunities, and I would like to make a difference in the world, however small it may be. </p>
+        </div>
+
+        <div class ="col-3 whyPic">
+          <img src="./assets/sailboat.svg" alt="sail">
+        </div>
+      </div>
+      
+      <!--hobbies-->
+      <span id = "hobbies"></span>
+           <div class = "row justify-content-center hobbiesHeader">
+        <h2>What I like to do in my free time...</h2>
+      </div>
+      <div class = "row justify-content-center hobbiesContainerPhotos">
+         <div class = "col-3 justify-content-center hobbiesPhotos">
+          <img src="./assets/photos/compressed/pic56.jpg" alt="travel" class="hobbiesPic">
+        </div>
+        
+        <div class = "col-3 justify-content-center hobbiesPhotos">
+
+          <img src="./assets/photos/compressed/pic34.jpg" alt="cook" class="hobbiesPic">
+        
+        </div>
+
+        <div class = "col-3 justify-content-center hobbiesPhotos">
+          <img src="./assets/photos/compressed/pic18.jpg" alt="hike" class="hobbiesPic">
+        
+        
+        </div>
+      </div>
+
+      <div class = "row justify-content-center hobbiesContainerText">
+        <div class = "col-3 hobbiesText">
+        <h5>Travel</h5>
+        <p>I love travelling and experiencing different cultures and a change of scenary.
+          It almost feels like I am living someone else's life for a few days.<br>
+          Did I mention that I worked as a flight attendant briefly during my gap year too? 
+        </p>
+       </div>
+       
+       <div class = "col-3 hobbiesText">
+        <h5>Cook</h5>
+        <p>Cooking and baking are my passion I cannot live without! 
+          Food and science is also quite a fascinating subject. <br>
+          I like to cook and bake for my friends and families, and luckily they are enjoying it too.
+        </p>
+       </div>
+
+       <div class = "col-3 hobbiesText">
+         <h5>Hike</h5>
+       <p>I usually go hiking when I travel overseas, as I feel that HK is often a little too hot and humid to hike. This allows me to see some different landscapes and reminded me to appreciate the greatness and beauty of mother nature.
+       </p>
+       
+       </div>
+     </div>
+
+      <!--gallery-->
+      <a id = "gallery"></a>
+      <div class = "galleryText"><h2>Photo Grid</h2></div>
+      <div class = "galleryContainer">
+        <figure class="galleryItem galleryItem1">
+          <img src="./assets/photos/compressed/pic22.jpg" class="galleryImage" alt="Image 1">
+        </figure>
+        <figure class="galleryItem galleryItem2">
+          <img src="./assets/photos/compressed/pic16.jpg" class="galleryImage" alt="Image 2">
+        </figure>
+        <figure class="galleryItem galleryItem3">
+          <img src="./assets/photos/compressed/pic43.jpg" class="galleryImage" alt="Image 3">
+        </figure>
+        <figure class="galleryItem galleryItem4">
+          <img src="./assets/photos/compressed/pic52.jpg" class="galleryImage" alt="Image 4">
+        </figure>
+        <figure class="galleryItem galleryItem5">
+          <img src="./assets/photos/compressed/pic4.jpg" class="galleryImage" alt="Image 5">
+        </figure>
+        <figure class="galleryItem galleryItem6">
+          <img src="./assets/photos/compressed/pic14.jpg" class="galleryImage" alt="Image 6">
+        </figure>
+        <figure class="galleryItem galleryItem7">
+          <img src="./assets/photos/compressed/pic53.jpg" class="galleryImage" alt="Image 7">
+        </figure>
+        <figure class="galleryItem galleryItem8">
+          <img src="./assets/photos/compressed/pic5.jpg" class="galleryImage" alt="Image 8">
+        </figure>
+        <figure class="galleryItem galleryItem9">
+          <img src="./assets/photos/compressed/pic32.jpg" class="galleryImage" alt="Image 9">
+        </figure>
+        <figure class="galleryItem galleryItem10">
+          <img src="./assets/photos/compressed/pic8.jpg" class="galleryImage" alt="Image 10">
+        </figure>
+        <figure class="galleryItem galleryItem11">
+          <img src="./assets/photos/compressed/pic2.jpg" class="galleryImage" alt="Image 11">
+        </figure>
+        <figure class="galleryItem galleryItem12">
+          <img src="./assets/photos/compressed/pic47.jpg" class="galleryImage" alt="Image 12">
+        </figure>
+        <figure class="galleryItem galleryItem13">
+          <img src="./assets/photos/compressed/pic39.jpg" class="galleryImage" alt="Image 13">
+        </figure>
+        <figure class="galleryItem galleryItem14">
+          <img src="./assets/photos/compressed/pic54.jpg" class="galleryImage" alt="Image 14">
+        </figure>
+        <figure class="galleryItem galleryItem15">
+          <img src="./assets/photos/compressed/pic59.jpg" class="galleryImage" alt="Image 15">
+        </figure>
+
+      </div>  
+
+      <!--contact me-->
+      <div class = "contactMeHeader"><h2>Reach out to me!</h2></div>
+
+      <div class = "row justify-content-center contactMeContainer">
+        <a id = "contactMe"></a>
+        <div class = "col-9 contactMe">
+          <!-- slack  -->
+          <a href="https://xcceleratestudentshq.slack.com/team/U016XE7QPV4" target="_blank"><img src="./assets/contactMe/slack.png" alt="Slack" width="50px" height="50px"></a>
+          <!-- github  -->
+          <a href="https://github.com/bleunggithub" target="_blank"><img src="./assets/contactMe/github.png" alt="Github"  width="35px" height="35px"></a>&nbsp;&nbsp;
+          
+          <!-- email  -->
+          <img src="./assets/contactMe/email.svg" alt="Email" width="40px" height="40px" onclick="emailMe(this);" class="emailBtn"> &nbsp;
+
+          <div id = "emailPopUp" class ="popUp">
+            <span onclick="this.parentElement.style.display='none'" class="closeBtn"> &#10005;</span>
+
+            <form id = "emailForm" action="mailto:leungcheukkei@gmail.com" method="post" enctype="text/plain">
+              <p class="formLabel">First name </p></label><input type="text" name="firstName"><br>
+              <p class="formLabel">Last name </p><input type="text" name="lastName"><br>
+              <p class="formLabel">Email </p><input type="email" name="email"><br>
+              <p class="formLabel">Message </p><textarea name="message" cols="20" rows="4"></textarea><br>
+              <input type="submit" name="submit" value="Send">
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>  
+
+
+
+      <!-- footer -->
+      <div class = "row justify-content-center footerContainer">
+        <a id="footer"></a>
+        <footer> 
+          2020 &#169; Betty Leung	&nbsp;	&nbsp;||	&nbsp;	&nbsp;image credits: <a href="www.svgrepo.com" target="_blank">svgrepo.com</a>
+        </footer>
+      </div>
+
+    </div>
+
+    <!--bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="index.js"></script>
+
+    </body>
+</html>
