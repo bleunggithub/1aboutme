@@ -6,5 +6,4 @@
 * Or the youtube video below to see how it works
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=80FYQlz3xKk" target="_blank"><img src="http://img.youtube.com/vi/80FYQlz3xKk/0.jpg" 
-alt="see how this site work on Youtube" width="550" border="10" /></a>
+<img src="https://github.com/bleunggithub/1aboutme/blob/master/assets/1-aboutme.gif?raw=true" width="550" border="10" />
